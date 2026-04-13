@@ -42,11 +42,11 @@ sudo apt install python3-tk
 **1. Clone or download the repo**
 
 ```
-git clone https://github.com/LordCarvell/NeuralSnake.git
+git clone https://github.com/LordCarvell/snake-ai.git
 cd NeuralSnake
 ```
 
-Or just download `neural_snake.py` on its own.
+Or just download `main.py` on its own.
 
 **2. Install the dependency**
 
@@ -57,7 +57,7 @@ pip install numpy
 **3. Run it**
 
 ```
-python neural_snake.py
+python main.py
 ```
 
 ---
@@ -116,8 +116,8 @@ Just `Ctrl-C` to stop. It saves automatically before exiting.
 ## Project Structure
 
 ```
-NeuralSnake/
-├── neural_snake.py     # whole application in one file
+snake-ai/
+├── main.py     # whole application in one file
 ├── snake_models/       # created automatically when you first save
 │   └── <model_name>/
 │       ├── weights.npz
